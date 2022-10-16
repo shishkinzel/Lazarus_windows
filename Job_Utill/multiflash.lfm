@@ -1,0 +1,68 @@
+object frmOne: TfrmOne
+  Left = 345
+  Height = 615
+  Top = 165
+  Width = 1179
+  Caption = 'Утилита для установки ПО'
+  ClientHeight = 615
+  ClientWidth = 1179
+  LCLVersion = '2.2.4.0'
+  object pnTop: TPanel
+    Left = 0
+    Height = 66
+    Top = 0
+    Width = 1179
+    Align = alTop
+    TabOrder = 0
+  end
+  object pnDown: TPanel
+    Left = 0
+    Height = 66
+    Top = 549
+    Width = 1179
+    Align = alBottom
+    TabOrder = 1
+  end
+  object pnLeft: TPanel
+    Left = 0
+    Height = 477
+    Top = 69
+    Width = 144
+    Align = alLeft
+    TabOrder = 2
+  end
+  object pnRight: TPanel
+    Left = 985
+    Height = 477
+    Top = 69
+    Width = 194
+    Align = alRight
+    TabOrder = 3
+  end
+  object spTop: TSplitter
+    Cursor = crVSplit
+    Left = 0
+    Height = 3
+    Top = 66
+    Width = 1179
+    Align = alTop
+    ResizeAnchor = akTop
+  end
+  object spDown: TSplitter
+    Cursor = crVSplit
+    Left = 0
+    Height = 3
+    Top = 546
+    Width = 1179
+    Align = alBottom
+    ResizeAnchor = akBottom
+  end
+  object pnZentr: TPanel
+    Left = 144
+    Height = 477
+    Top = 69
+    Width = 841
+    Align = alClient
+    TabOrder = 6
+  end
+end
